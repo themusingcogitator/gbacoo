@@ -1,0 +1,45 @@
+/* Font will change and may be a combination based on which provides the
+best representation of mathematical symbols*/
+body {
+  font-family: "Cambria", "Tahoma", serif;
+  background-color: #a9a9a9;
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+.title {
+  background-color: #696969;
+  color: #f0f8ff;
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+}
+#loginForm {
+  background-color: #696969;
+  color: #f0f8ff;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#login {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 20px;
+}
+#summary {
+  background-color: #696969;
+  color: #f0f8ff;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title, #loginForm, #summary {
+  border-style: double;
+  border-width: 5px;
+}
